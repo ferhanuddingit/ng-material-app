@@ -1,0 +1,33 @@
+Part 1 - https://www.youtube.com/watch?v=ZGWOc37kQkw
+
+Ref : https://material.angular.io/guide/getting-started
+
+ng new ng-material-app
+npm i --s @angular/material @angular/cdk @angular/animations
+
+CREATE SEPARATE MODULE FOR MATERAIL
+ng g m material
+
+Part 2 - https://www.youtube.com/watch?v=hfhlzY3U27M
+https://github.com/CodAffection/Firebase-CRUD-in-Angular-Material
+Create Project on Firebase
+https://console.firebase.google.com
+
+FIREBASE PROJECT
+npm i --s firebase angularfire2
+
+Go to https://console.firebase.google.com/project/materialdbcrud/overview
+click on </> (icon)
+
+Settings -> General -> Config
+
+**********ACCESS DENIED*************
+Go to database, next to title there are 2 options:
+Cloud Firestore, Realtime database
+Select Realtime database and go to rules
+change rules to true.
+**********ACCESS DENIED*************
+
+npm i --s lodash
+
+npm install -g firebase-tools
